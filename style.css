@@ -1,0 +1,72 @@
+body{
+    background-image: url(https://images.wallpaperscraft.com/image/single/bench_sky_clouds_113412_1280x720.jpg);
+    background-size: cover;
+}
+.main-content{
+    position: absolute;
+    bottom: 9.2%;
+    left: 45%;
+}
+.flag-stand{
+    width: 10px;
+    height: 350px;
+    background: #587a0a;
+    float: left;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    float: left;
+    padding: 0;
+}
+li{
+    width: 180px;
+    height: 35px;
+    animation-name: stretch;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes stretch {
+    0% {
+      transition: all 0.75s ease-in-out;
+      width: 185px;
+    }
+    50% {
+      transition: all 0.75s ease-in-out;
+      width: 195px;
+    }
+  
+    100% {
+      transition: all 0.75s ease-in-out;
+      width: 205px;
+    }
+  }
+.orange{
+    background: #f96232;
+}
+.white{
+    background: #fff;
+}
+.green{
+    background: #006000;
+}
+.ashoka-chakra-div{
+    width: 35px;
+    height: 35px;
+    margin: 0 auto;
+    animation: rotate 2s linear infinite;
+}
+.ashoka-chakra{
+    height: 100%;
+    animation-delay: 9s;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
